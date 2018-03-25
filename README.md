@@ -97,9 +97,9 @@ Other requirements, which are obvious, but also listed here explicitly:
     * For each transaction received we will simply store it in a List
     * There will be a scheduled job configured to run every second that:
         - removes expired transactions from the List;
-        - calculates de statistic result to be consumed by HTTP GET /statistic
-    Since there will be a refreshed statistic every second, there won't be any further calculation for when requesting the statistic of     the last 60 seconds.
+        - calculates de statistic result to be consumed by HTTP GET /statistic.
+(Since there will be a refreshed statistic every second, there won't be any further calculation for when requesting the statistic of     the last 60 seconds)
 
-* This solution only works for single instance environment. For multiple instances, some changes are required.
+* OBS:. This solution only works for single instance environment. For multiple instances, some changes are required.
 
 
